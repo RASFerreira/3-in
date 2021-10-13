@@ -1,0 +1,95 @@
+
+.ourjob{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10% 0;
+}
+
+.job__box{
+    width: 350px;
+    height: 300px;
+    background: $white-color;
+    border: 3px solid $primary-color;
+    border-radius: 10px;
+    margin: 2%;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: row;
+}
+
+#webdev{
+    background: url(../img/web.png);
+    background-size: cover;
+    background-position: right;
+}
+
+#webdev:hover{
+    background: url(../img/webopa.png) ;
+    background-size: cover;
+    background-position: center;
+}
+
+#sistemas{
+    background: url(../img/sist.png);
+    background-size: cover;
+    background-position: right;
+}
+
+#sistemas:hover{
+    background: url(../img/sistopa.png) ;
+    background-size: cover;
+    background-position: center;
+}
+
+#assist{
+    background: url(../img/assist.png);
+    background-size: cover;
+    background-position: right;
+}
+
+#assist:hover{
+    background: url(../img/assistopa.png) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.job__box:hover{
+    background: blue;
+}
+
+
+
+.job__box:hover{
+    width: 400px;
+    height: 350px;
+    transition: all 0.5s;
+}
+
+.job__link{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5% 10%;
+    opacity: 0;
+}
+
+.job__link:hover{
+    text-decoration: none;
+    opacity: 100%;
+    transition: opacity 1s;
+}
+
+
+.job__box--text{
+    font-family: $text-font;
+    color: $white-color;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 50%;
+}
+

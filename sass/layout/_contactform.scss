@@ -1,0 +1,149 @@
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 0 0 0;
+}
+
+.contact__form--title{
+    font-family: $title-font;
+    color: $white-color;
+}
+
+.contact__form--box{
+    background: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    border-radius: 20px;
+    padding: 40px ;
+}
+
+#erro__nome{
+    font-family: $subtitle-font;
+    color: $white-color;
+    margin-left: 5%;
+}
+
+#erro__email{
+    font-family: $subtitle-font;
+    color: $white-color;
+    margin-left: 5%;
+}
+
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input__form{
+    background: none;
+    border: none;
+    border-bottom: 1px solid $white-color;
+    width: 300px;
+    padding: 15px 20px;
+    color: $white-color;
+    font-family: $subtitle-font;
+    margin: 5px 0;
+    
+}
+
+
+
+.input__form::placeholder{
+    font-family: $subtitle-font;
+    color: $white-color;
+    
+    
+}
+
+
+
+.form__btn{
+    margin: 60px 0 0 0 ;
+    background: $white-color;
+    font-family: $subtitle-font;
+    color: $secondary-dark-color;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 150px;
+    align-self: center;
+    border-color: $white-color;
+    
+}
+
+.form__btn:hover{
+    margin: 60px 0 0 0 ;
+    background: $btn-hover;
+    font-family: $subtitle-font;
+    color: $white-color;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 150px;
+    align-self: center;
+    border-color: $btn-hover;
+}
+
+
+
+
+//media queries
+
+@media (max-width: 575.98px) { 
+    .contact{
+        padding: 25% 0 0 0;
+        margin-bottom: 0;
+    }
+
+    .contact__form--box{
+       
+        width: 100%;
+        border-radius: 0px;
+        padding: 40px ;
+        margin-bottom: 0;
+    }
+    
+     
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .contact{
+        padding: 20% 0 0 0;
+    }
+
+    .contact__form--box{
+       
+        width: 100%;
+        border-radius: 0px;
+        padding: 40px ;
+    }
+    
+    
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .contact{
+        padding: 15% 0 0 0;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}

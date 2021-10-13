@@ -1,0 +1,180 @@
+
+.apoio{
+    height: 12vh;
+}
+
+.left__info--box{
+    height: 100vh;
+    padding: 5% 5% 5% 10%;
+}
+
+.left__info--title{
+    font-family: $title-font;
+    color: $primary-color;
+    margin-bottom: 10%;
+}
+
+.left__info--text{
+    font-family: $text-font;
+    color: $secondary-color;
+}
+
+.left__info--text a{
+    font-family: $text-font;
+    color: $secondary-color;
+}
+
+.right__info--box{
+    height: 90vh;
+    padding: 0 15% 5% 5%;
+}
+
+.right__info--title{
+    font-family: $title-font;
+    color: $primary-color;
+    padding: 5% 10%;
+}
+
+.right__info--text{
+    font-family: $text-font;
+    color: $secondary-color;
+}
+
+.webdev__img{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.webdev__img img{
+    height: 80vh;
+}
+
+.sistemas{
+    flex-wrap: wrap-reverse;
+}
+
+
+.sistemas__img{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sistemas__img img{
+    height: 50vh;
+}
+
+
+.assistencia__img{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.assistencia__img img{
+    height: 60vh;
+}
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .right__info--box{
+        height: 90vh;
+        padding: 0 15% 5% 15%;
+    }
+
+    .left__info--box{
+        height: 90vh;
+        padding: 0 15% 5% 15%;
+    }
+
+    .webdev__img{
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .webdev__img img{
+        height: 60vh;
+    }
+
+    .sistemas__img{
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sistemas__img img{
+        height: 40vh;
+    }
+
+    .assistencia__img{
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; 
+        justify-content: center;
+        
+        
+    }
+    
+    .assistencia__img img{
+        height: 40vh;
+    }
+     
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .right__info--box{
+        height: 90vh;
+        padding: 0 15% 5% 15%;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    
+    .right__info--title{
+        font-family: $title-font;
+        color: $primary-color;
+        padding: 15% 10% 0 10%;
+    }
+
+    .sistemas__img img{
+        height: 40vh;
+    }
+
+    
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}

@@ -1,0 +1,19 @@
+.aboutus{
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutus__title{
+    font-family: $title-font;
+    color: $primary-color;
+    margin-bottom: 5%;
+}
+
+.aboutus__text{
+    font-family: $subtitle-font;
+    color: $secondary-color;
+    font-size: 1.2em;
+    width: 60%;
+}
