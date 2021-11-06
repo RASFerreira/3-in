@@ -20,7 +20,7 @@ function nightMode() {
         line1.style.background = ('#ffffff')
         line2.style.background = ('#ffffff')
         line3.style.background = ('#ffffff')
-        //img_web.src = './img/desenwebnight.png';
+        img_web.src = './img/desenwebnight.png';
         
 
     }
@@ -86,18 +86,35 @@ navSlide();
 
 function formValidation() {
     
-    var nome = document.getElementById('name').value;
+    var nome = document.getElementById('name');
     const erro_nome = document.getElementById('erro__nome');
+    var email = document.getElementById('email');
+    const erro_email = document.getElementById('erro__email'); 
+    var pattern = 
     
 
     
 
         erro_nome.innerHTML = ''
 
-    if(nome.length < 3){
-        erro_nome.innerHTML = `Insira um nome real`
+    if(nome.value.length < 3){
+        erro_nome.innerHTML = `O seu nome deve de conter mais de 3 caracteres`;
 
-    }
+        nome.focus();
+
+       }
+
+     erro_email.innerHTML = ''
+
+    if(email.value == '' || email.value.indexOf('@') == -1){
+        erro_email.innerHTML = `Insira um email válido`;
+
+        email.focus();
+
+
+    } 
+
+   
 
 
     
